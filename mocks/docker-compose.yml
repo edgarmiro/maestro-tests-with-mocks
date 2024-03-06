@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  mocksserver:
+    image: mocksserver/main
+    container_name: mocksserver
+    ports:
+      - 3100:3100
+      - 3110:3110
+    environment:
+      - MOCKS_LOG=debug
+    volumes:
+      - ./src/:/input

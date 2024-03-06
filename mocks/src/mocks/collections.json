@@ -1,0 +1,21 @@
+[
+  {
+    "id": "base",
+    "routes": [
+    ]
+  },
+  {
+    "id": "with-products",
+    "from": "base",
+    "routes": [
+      "get-products:success"
+    ]
+  },
+  {
+    "id": "without-products",
+    "from": "base",
+    "routes": [
+      "get-products:empty"
+    ]
+  }
+]

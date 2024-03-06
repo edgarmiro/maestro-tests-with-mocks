@@ -1,0 +1,12 @@
+appId: com.example.uitesting.maestro
+onFlowStart:
+  - runScript: mocks/api.js
+  - evalScript: ${ output.restoreRouteVariants() }
+  - evalScript: ${ output.selectCollection('with-products') }
+---
+- launchApp
+
+- assertVisible: "Loading…"
+- assertVisible: "Product list"
+- assertVisible: "Iceberg lettuce"
+- assertVisible: "Hacendado Classic Chickpea Hummus Recipe"

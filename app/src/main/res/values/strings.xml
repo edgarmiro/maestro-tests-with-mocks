@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UITesting</string>
+    <string name="product_list">Product list</string>
+    <string name="product_detail">Product detail</string>
+    <string name="loading">Loading…</string>
+    <string name="product_list_placeholder">There are no elements.</string>
+    <string name="product_list_error">Error loading the products.</string>
+    <string name="product_detail_error">Error loading the product.</string>
+</resources>

@@ -1,0 +1,11 @@
+appId: com.example.uitesting.maestro
+onFlowStart:
+  - runScript: mocks/api.js
+  - evalScript: ${ output.restoreRouteVariants() }
+  - evalScript: ${ output.selectCollection('with-products') }
+  - evalScript: ${ output.selectRouteVariant('get-products:error') }
+---
+- launchApp
+
+- assertVisible: "Product list"
+- assertVisible: "Error loading the products."

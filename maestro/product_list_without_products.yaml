@@ -1,0 +1,10 @@
+appId: com.example.uitesting.maestro
+onFlowStart:
+  - runScript: mocks/api.js
+  - evalScript: ${ output.restoreRouteVariants() }
+  - evalScript: ${ output.selectCollection('without-products') }
+---
+- launchApp
+
+- assertVisible: "Product list"
+- assertVisible: "There are no elements."
