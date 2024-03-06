@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UITesting</string>
+    <string name="app_name">Maestro tests with Mocks</string>
     <string name="product_list">Product list</string>
     <string name="product_detail">Product detail</string>
     <string name="loading">Loading…</string>

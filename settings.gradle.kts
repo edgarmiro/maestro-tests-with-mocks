@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "UITesting"
+rootProject.name = "Maestro tests with Mocks"
 include(":app")
