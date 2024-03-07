@@ -5,7 +5,11 @@
 
 ### Demo
 
-https://github.com/edgarmiro/maestro-tests-with-mocks/assets/2278900/272c97a6-93bf-458a-a93e-950faf8ce3ea
+
+
+https://github.com/edgarmiro/maestro-tests-with-mocks/assets/2278900/9811d546-867d-4ab3-8488-62871b2905dd
+
+
 
 ## Used tools
 
