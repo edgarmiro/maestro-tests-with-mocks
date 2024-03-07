@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Iceberg lettuce",
+    "image_url": "https://prod-mercadona.imgix.net/images/e047afab489d1c6a9ffc9e7da122ce3f.jpg?fit=crop&h=600&w=600",
+    "pvp": 0.99
+  },
+  {
+    "id": "2",
+    "name": "Hacendado Classic Chickpea Hummus Recipe",
+    "image_url": "https://prod-mercadona.imgix.net/images/321f415fc3e6c039dd1dfa069e9020ef.jpg?fit=crop&h=600&w=600",
+    "pvp": 1.05
+  }
+]
