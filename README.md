@@ -40,3 +40,11 @@ docker compose -f mocks/docker-compose.yml up
 ```bash
 maestro test maestro/
 ```
+
+## Build variants
+
+There are three different build variants.
+
+- *debug:* To develop the application.
+- *release:* The final version.
+- *maestro:* The mocked version.
