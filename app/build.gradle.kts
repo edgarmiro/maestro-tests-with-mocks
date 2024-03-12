@@ -41,7 +41,7 @@ android {
         create("maestro") {
             initWith(getByName("release"))
             applicationIdSuffix = ".maestro"
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:3100\"")
             signingConfig = signingConfigs.getByName("debug")
         }
