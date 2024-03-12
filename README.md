@@ -48,3 +48,7 @@ There are three different build variants.
 - *debug:* To develop the application.
 - *release:* The final version.
 - *maestro:* The mocked version.
+
+## Notes
+
+For the sake of simplicity, we've omitted, in purpose, some important pieces in a production application like using ViewModels or adding Retrofit or Ktor for the network calls, as well as adding other types of tests.
