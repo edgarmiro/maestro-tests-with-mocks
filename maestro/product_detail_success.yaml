@@ -3,12 +3,14 @@ onFlowStart:
   - runScript: mocks/api.js
   - evalScript: ${ output.restoreRouteVariants() }
   - evalScript: ${ output.selectCollection('with-products') }
-  - evalScript: ${ output.selectRouteVariant('get-product:success-1') }
 ---
 - launchApp
 
 - assertVisible: "Loading…"
 - assertVisible: "Product list"
+
+- evalScript: ${ output.selectRouteVariant('get-product:success-1') }
+
 - tapOn: "Iceberg lettuce"
 - assertVisible: "Product detail"
 - assertVisible: "Loading…"
