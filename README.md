@@ -3,6 +3,8 @@
 ### Overview
 > An example of how to mock the network layer in Maestro tests.
 
+You can find more info about the motivation behind this approach in the post [The Night’s Watch: Safeguarding store operations](https://medium.com/mercadona-tech/the-nights-watch-safeguarding-store-operations-4c3acf727af2)
+
 ### Demo
 
 
